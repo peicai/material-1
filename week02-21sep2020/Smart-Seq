@@ -1,0 +1,39 @@
+
+Part a
+Bisulfite Sequencing
+
+Bisulfite sequencing is the use of bisulfite treatment of DNA before routine sequencing to determine the pattern of methylation and is the current gold standard for this. Bisulfite will convert non-methylated cytosines into uracil, but leave the methylated sites unaffected. Hence, DNA-seq before and after bisulfite treatment can give us single nucleotide resolution of methylation patterns on a given DNA strand.
+
+
+
+
+Resources
+https://www.ecseq.com/support/epigenetics/how-does-bisulfite-sequencing-wgbs-rrbs-work
+https://en.wikipedia.org/wiki/Bisulfite_sequencing
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3233226/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC48546
+https://www.youtube.com/watch?v=OcIazFGQv0
+
+Part B
+
+
+Link: Smart-Seq → Single-cell gene expression → Zero-Inflated Negative Binomial (e.g., with MAST)
+Link: Smart-Seq→ Identification of differentially expressed genes→ Anova
+
+Description: Smart-Seq [1] is a method for (down to) single-cell RNA-Seq which provides robust and high-performance comparable to standard mRNA-Seq, while being able to work with very small total quantities of cells to be sequenced. Smart-seq2 [2] was developed as an extension by the same group two years later which includes technical refinements which allow for an increased cDNA yield. The extended method further demonstrates less variability, fewer technical biases and has higher sensitivity while costing much less than other commercially available kits (at the time) [2].
+Both methods have improved read coverage across transcripts compared to existing methods. As a result, they are often used for genome-wide transcriptome profiling in rare cells and for identification of SNPs. 
+
+
+(The method/ I don’t know if needed)
+Smart-seq2:First PolyA+RNA is reverse transcribed creating cDNA. Once the reverse transcription reaches the 5’ end of the RNA molecule, a few not- templated nucleotides are added to the 3’end. cDNA is amplified using PCA. Finally the construction of sequencing libraries is achieved through tagmentation.( [2],[3] ) 
+
+Smart-Seq uses Moloney murine leukemia virus reverse transcriptase to incorporate an oligonucleotide having a PCR-primer sequence at the 5’ end of transcripts. This reverse transcriptase enzyme from the Moloney murine leukemia virus possesses two features that are critical to the success of Smart-Seq: template switching and terminal transferase activity [4].
+
+
+[1] Ramsköld, Daniel, et al. "Full-length mRNA-Seq from single-cell levels of RNA and individual circulating tumor cells." Nature biotechnology 30.8 (2012): 777-782.
+
+[2] Picelli, Simone, et al. "Full-length RNA-seq from single cells using Smart-seq2." Nature protocols 9.1 (2014): 171-181.
+
+[3]https://www.illumina.com/science/sequencing-method-explorer/kits-and-arrays/smart-seq2.html
+
+[4] Goetz, J., Trimarchi, J. Transcriptome sequencing of single cells with Smart-Seq. Nat Biotechnol 30, 763–765 (2012). https://doi.org/10.1038/nbt.2325
